@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+
+int main() {
+    optimize();
+    int a[]={1,2,5,6,9,10,12};
+    int n=8;
+    int t=10;
+    int l=0,r=n-1;
+    bool done =0;
+    while(l<=r){
+        int mid=(l+r)/2;
+        if(a[mid]==t){
+            cout<<mid<<"\n";
+            done=1;
+            break;
+        }
+        if(a[mid]<t){
+            l=mid+l;
+        }
+        else{
+            r=mid-l;
+        }
+    }
+    if(!done){ cout<<"NOT FOUND\n";}
+}

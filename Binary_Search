@@ -27,3 +27,5 @@ int main() {
     }
     if(!done){ cout<<"NOT FOUND\n";}
 }
+
+//time complexity o(nlog(n))

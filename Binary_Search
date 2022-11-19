@@ -19,10 +19,10 @@ int main() {
             break;
         }
         if(a[mid]<t){
-            l=mid+l;
+            l=mid+1;
         }
         else{
-            r=mid-l;
+            r=mid-1;
         }
     }
     if(!done){ cout<<"NOT FOUND\n";}

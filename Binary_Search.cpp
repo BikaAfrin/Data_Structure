@@ -1,3 +1,5 @@
+//cout<<binary_search(v.begin(),v.end(),value);
+
 #include<bits/stdc++.h>
 using namespace std;
 void BinarySearch(int arr[],int n,int item)

@@ -32,3 +32,5 @@ int main()
     sort(arr,arr+size_arr);
     BinarySearch(arr,size_arr,item);
 }
+
+//time complexity o(nlog(n))
